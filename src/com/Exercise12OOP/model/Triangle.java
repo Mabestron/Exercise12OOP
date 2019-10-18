@@ -5,6 +5,9 @@ public class Triangle extends Shape
 {
 	private double base;
 	private double height;
+	public double area;
+	private double perimeter;
+	protected String name;
 	
 	//Constructor vacio
 	public Triangle()
@@ -22,6 +25,14 @@ public class Triangle extends Shape
 	public double  CalculateArea(double base,double height)
 	{
 		return ((base*height)/2);
+	}
+	
+	public double CalculatePerimeter()
+	{
+		
+		 this.perimeter=Math.sqrt(Math.pow(this.base, 2)+Math.pow(this.height, 2));
+		 this.name="Default";
+		return 0;
 	}
 	
 	public double  CalculatePerimeter(double base,double height,double hypotenuse)
@@ -50,6 +61,12 @@ public class Triangle extends Shape
 	public void setHeight(double height)
 	{
 		this.height=height;
+	}
+
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

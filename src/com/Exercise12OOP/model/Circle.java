@@ -41,6 +41,13 @@ public class Circle extends Shape {
 	{
 		this.radio=radio;
 	}
+
+
+	@Override
+	public void DoSomething() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	

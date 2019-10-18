@@ -2,6 +2,8 @@ package com.Exercise12OOP.app;
 import com.Exercise12OOP.model.Square;
 import com.Exercise12OOP.model.Circle;
 import com.Exercise12OOP.model.Triangle;
+import com.Exercise12OOP.model.IsoselesTriangle;
+import com.Exercise12OOP.model.Shape;
 import java.util.Scanner;
 
 public class Shapeapp 
@@ -20,7 +22,7 @@ public class Shapeapp
 		Square square2 =new Square(10.2);
 		Circle circle2= new Circle(5.3);
 		Triangle triangle2= new Triangle(7.3,8.9);
-		
+		IsoselesTriangle triangleIsoseles = new IsoselesTriangle();
 		
 		Scanner input=new Scanner(System.in);
 		
